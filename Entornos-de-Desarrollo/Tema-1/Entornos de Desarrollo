@@ -23,3 +23,40 @@
   	En lenguajes interpretados como PHP o JavaScript, no existe código objeto ni binario, solo código fuente.
 
 	
+3. CICLO DE LA VIDA DEL SOFTWARE
+
+    Ingeniería del software
+
+
+    Fases principales
+      -Análisis (Qué necesito): definición clara de las necesidades del cliente y se especifican los requisitos que debe cumplir el software.
+
+        Requisitos importantes:
+            - Ser completa y sin omisiones
+            - Ser concisa y sin trivialidades
+            - Evitar ambigüedades y utilizar un lenguaje formal
+            - Evitar detalles de diseño o implementación
+            - Ser entendible por el cliente
+            - Separar requisitos funcionales y no funcionales
+            - Dividir y jerarquizar el modelo
+            - Fijar criterios de validación
+      
+      -Diseño (Como lo vamos hacer): se proponen opciones al cliente para que elija la mas óptima a sus necesidades
+
+         Actividades habituales en el diseño:
+            - Diseño arquitectónico
+            - Diseño detallado
+            - Diseño de datos
+            - Diseño de interfaz de usuario
+      
+      -Codificación (Picar código): escribir el código fuente del programa
+      
+      -Pruebas (Definir las pruebas y realizarlas): conseguir que funcione incorrectamente y asi descubrir los defectos
+      
+      -Mantenimiento (documentar, actualizar, parchear):  durante la explotación del sistema software en necesario realizar cambios ocasionales rehaciendo parte del trabajo realizado en las fases previas.
+
+        Tipos de mantenimiento:
+            - Correctivo: corrección de defectos
+            - Perfectivo: mejora de la funcionalidad
+            - Evolutivo: se añaden funcionalidades nuevas
+            - Adaptativo. se adaptan nuevos entornos
