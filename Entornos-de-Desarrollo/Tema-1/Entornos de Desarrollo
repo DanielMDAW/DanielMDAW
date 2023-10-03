@@ -29,7 +29,7 @@
 
 
     Fases principales
-      -Análisis (Qué necesito): definición clara de las necesidades del cliente y se especifican los requisitos que debe cumplir el software.
+      -Análisis: Definición clara de las necesidades del cliente y se especifican los requisitos que debe cumplir el software.
 
         Requisitos importantes:
             - Ser completa y sin omisiones
@@ -41,7 +41,7 @@
             - Dividir y jerarquizar el modelo
             - Fijar criterios de validación
       
-      -Diseño (Como lo vamos hacer): se proponen opciones al cliente para que elija la mas óptima a sus necesidades
+      -Diseño: Se proponen opciones al cliente para que elija la mas óptima a sus necesidades
 
          Actividades habituales en el diseño:
             - Diseño arquitectónico
@@ -49,14 +49,64 @@
             - Diseño de datos
             - Diseño de interfaz de usuario
       
-      -Codificación (Picar código): escribir el código fuente del programa
+      -Codificación: Escribir el código fuente del programa
       
-      -Pruebas (Definir las pruebas y realizarlas): conseguir que funcione incorrectamente y asi descubrir los defectos
+      -Pruebas: Conseguir que funcione incorrectamente y asi descubrir los defectos
       
-      -Mantenimiento (documentar, actualizar, parchear):  durante la explotación del sistema software en necesario realizar cambios ocasionales rehaciendo parte del trabajo realizado en las fases previas.
+      -Mantenimiento:  Durante la explotación del sistema software en necesario realizar cambios ocasionales rehaciendo parte del trabajo realizado en las fases previas.
 
         Tipos de mantenimiento:
-            - Correctivo: corrección de defectos
-            - Perfectivo: mejora de la funcionalidad
-            - Evolutivo: se añaden funcionalidades nuevas
-            - Adaptativo. se adaptan nuevos entornos
+            - Correctivo: Corrección de defectos
+            - Perfectivo: Mejora de la funcionalidad
+            - Evolutivo: Se añaden funcionalidades nuevas
+            - Adaptativo: Se adaptan nuevos entornos
+
+Resultado después de cada fase:
+
+	ANÁLISIS: Especificación de requisitos del software.
+	DISEÑO ARQUITECTÓNICO: Documento de arquitectura del software.
+	DISEÑO DETALLADO: Especificación de móduloso y funciones.
+	CODIFICACIÓN: Código fuente
+	PRUEBAS DE UNIDADES: Módulos utilizables.
+
+
+
+
+4. Modelos de Desarrollo
+
+	Modelo en cascada - Analisis --> Diseño --> Codificación --> Pruebas --> Mantenimiento. 
+
+			- Modelo de mayor antigüedad
+			- Identifica las fases principales del desarrollo software.
+			- Las fases han de realizarse en el orden indicado.
+			- El resultado de una fase es la entrada de la siguiente fase.
+			- Es un modelo bastante rígido que se adapta mal al cambio continuo de especificaciones.
+			- Existen diferentes variantes con mayor o menor cantidad de actividades.
+
+	Modelo en V
+			- Modelo muy parecido al modelo en cascada.
+			- Visión jerarquizada con distintos niveles.
+			- Los niveles inferiores
+
+Prototipos:
+
+	- A menudo los requisitos no están especificados claramente:
+
+			- Por no existir experiencia previa
+
+			- Por omisiión o falta de comunicación con el cliente.
+
+
+Metodologías ágiles:
+
+	- Son métodos de ingeniería del software basados en el desarrollo iterativo e incremental.
+
+	- Los requisitos y soluciones evolucionan con el tiempo según la necesidad del proyecto.
+
+	- El trabajo es realizado mediante la colaboraación de equipos auto-organizados y multidisciplinarios, inmersos en un proceso compartido de toma de decisiones a corto plazo.
+
+	- Las metodologías más conocidas son:
+
+		- Kanban
+		- Scrum
+		- XP (eXtreme Programming)
